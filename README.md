@@ -31,10 +31,10 @@ Dự án tập trung nghiên cứu, khảo sát hiện trạng và xây dựng m
 
 Nội dung chi tiết trong tài liệu bao gồm:
 
-**1. Khảo Sát & Nghiệp Vụ:** Mô tả bài toán, hiện trạng hoạt động và biểu đồ phân cấp chức năng.
-**2. Mô Hình Hóa Luồng Dữ Liệu:** Biểu đồ cho từng phân hệ nghiệp vụ.
-**3. Mô Hình Dữ Liệu:** Thiết kế sơ đồ thực thể liên kết (ERD) và chuẩn hóa bảng cơ sở dữ liệu quan hệ.
-**4. Thiết Kế Giao Diện (UI/UX):** Phác thảo mẫu form tiếp đón, form khám bệnh, hóa đơn và giao diện báo cáo.
+* **1. Khảo Sát & Nghiệp Vụ:** Mô tả bài toán, hiện trạng hoạt động và biểu đồ phân cấp chức năng.
+* **2. Mô Hình Hóa Luồng Dữ Liệu:** Biểu đồ cho từng phân hệ nghiệp vụ.
+* **3. Mô Hình Dữ Liệu:** Thiết kế sơ đồ thực thể liên kết (ERD) và chuẩn hóa bảng cơ sở dữ liệu quan hệ.
+* **4. Thiết Kế Giao Diện (UI/UX):** Phác thảo mẫu form tiếp đón, form khám bệnh, hóa đơn và giao diện báo cáo.
 
 ---
 
