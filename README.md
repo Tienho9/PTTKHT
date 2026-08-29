@@ -1,21 +1,48 @@
-# Hệ Thống Quản Lý Phòng Khám Nha Khoa 🏥
+# 🏥 Dental Clinic Management System
+### *Phân Tích & Thiết Kế Hệ Thống Quản Lý Phòng Khám Nha Khoa*
 
-## Giới thiệu 
+*Tài liệu phân tích và thiết kế hệ thống thông tin toàn diện dành cho quy trình vận hành, khám chữa bệnh và quản trị phòng khám nha khoa.*
 
-Hệ thống Quản lý Phòng Khám Nha Khoa được phát triển nhằm hỗ trợ công tác quản lý bệnh nhân, dịch vụ y tế, nhân viên và tài chính của phòng khám. Hệ thống giúp tự động hóa quy trình đặt lịch, lưu trữ hồ sơ bệnh nhân, thanh toán và báo cáo thống kê, từ đó nâng cao hiệu quả hoạt động và trải nghiệm người dùng.
+</div>
 
-## Tính năng chính 
+---
 
-- Quản lý bệnh nhân: Thêm, sửa, xóa bệnh nhân và theo dõi lịch sử khám.
+## 📌 Giới Thiệu Đề Tài
 
-- Quản lý dịch vụ y tế: Thêm, cập nhật và xóa dịch vụ nha khoa.
+Dự án tập trung nghiên cứu, khảo sát hiện trạng và xây dựng mô hình phân tích - thiết kế hoàn chỉnh cho **Hệ thống Quản lý Phòng khám Nha khoa**. Mục tiêu nhằm chuẩn hóa và tự động hóa các luồng nghiệp vụ từ tiếp đón, lập lịch khám, quản lý hồ sơ bệnh án đến tài chính và kho dược/vật tư y tế.
 
-- Quản lý lịch khám: Hỗ trợ lập phiếu khám, đặt lịch hẹn, theo dõi tình trạng khám chữa bệnh.
+* **Học phần:** Phân tích Thiết kế Hệ thống Thông tin (PTTKHT)
+* **Đối tượng hướng đến:** Bác sĩ, Nhân viên lễ tân/thu ngân, Quản lý phòng khám và Bệnh nhân.
 
-- Quản lý nhân viên y tế: Thêm, sửa, xóa thông tin bác sĩ và nhân viên.
+---
 
-- Quản lý tài chính: Xử lý thanh toán, in hóa đơn và thống kê doanh thu.
+## ✨ Phân Hệ & Chức Năng Chính
 
-- Quản lý kho vật tư: Theo dõi thiết bị y tế, lập phiếu nhập vật tư và quản lý tồn kho.
+* 🩺 **Quản lý Tiếp Đón & Hồ Sơ Bệnh Nhân:** Quản lý thông tin cá nhân, tiền sử bệnh án, hồ sơ điều trị và theo dõi tiến trình khám chữa bệnh.
+* 📅 **Quản lý Lịch Hẹn & Khám Bệnh:** Đặt lịch hẹn, phân bổ ca khám, tạo phiếu khám và chỉ định bác sĩ điều trị.
+* 🦷 **Quản lý Dịch Vụ & Điều Trị:** Danh mục dịch vụ nha khoa (nhổ răng, niềng răng, thẩm mỹ...), bảng giá và tiến trình thực hiện thủ thuật.
+* 💊 **Quản Lý Vật Tư & Thiết Bị:** Quản lý xuất/nhập/tồn trang thiết bị, vật liệu nha khoa và lập phiếu nhập kho y tế.
+* 💳 **Quản lý Tài Chính & Thu Ngân:** Tính phí dịch vụ, xuất hóa đơn, quản lý các đợt thanh toán/trả góp và chiết khấu.
+* 📊 **Báo Cáo & Thống Kê:** Thống kê doanh thu theo thời gian, lưu lượng bệnh nhân và năng suất làm việc của đội ngũ y bác sĩ.
 
-- Báo cáo thống kê: Tạo báo cáo tài chính, số lượng bệnh nhân và tình trạng hoạt động của phòng khám.
+---
+
+## 📑 Cấu Trúc Tài Liệu Phân Tích
+
+Nội dung chi tiết trong tài liệu [`Phòng Khám Nha Khoa.pdf`](https://github.com/Tienho9/PTTKHT/blob/main/Ph%C3%B2ng%20Kh%C3%A1m%20Nha%20Khoa.pdf) bao gồm:
+
+| Phần | Nội Dung Chi Tiết |
+| :--- | :--- |
+| **1. Khảo Sát & Nghiệp Vụ** | Mô tả bài toán, hiện trạng hoạt động và biểu đồ phân cấp chức năng (BFD). |
+| **2. Mô Hình Hóa Luồng Dữ Liệu (DFD)** | Biểu đồ DFD mức ngữ cảnh, DFD mức 0 và DFD mức 1 cho từng phân hệ nghiệp vụ. |
+| **3. Mô Hình Dữ Liệu (ERD & RDM)** | Thiết kế sơ đồ thực thể liên kết (ERD) và chuẩn hóa bảng cơ sở dữ liệu quan hệ. |
+| **4. Thiết Kế Giao Diện (UI/UX)** | Phác thảo mẫu form tiếp đón, form khám bệnh, hóa đơn và giao diện báo cáo. |
+
+---
+
+## 📂 Cấu Trúc Repository
+
+```text
+PTTKHT/
+├── 📄 Phòng Khám Nha Khoa.pdf   # Báo cáo phân tích và thiết kế hệ thống chi tiết
+└── 📄 README.md                 # Tài liệu giới thiệu tổng quan đề tài
